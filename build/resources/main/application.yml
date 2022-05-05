@@ -1,0 +1,49 @@
+spring:
+  application:
+    name: bookstore
+  datasource:
+    url: jdbc:h2:mem:book
+    username: aa
+    password:
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+  h2:
+    console:
+      enabled : true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    register-with-eureka: true
+    fetchRegistry: true
+
+server:
+  port: 8082
+
+  app:
+    name: spring boot application
+    api:
+      title: Spring Boot APIs
+      version: 1.0.0
+      description: Spring Boot APIs description
+      base-package: com.stationary.bookmanagement.controller
+      contact-name: apisupportgroup
+      contact-email: apisupportgroup@abc.com
+      swagger:
+        enable: true
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+#springfox:
+#  documentation:
+#    swagger:
+#      v2:
+#        path: /v2/api-docs

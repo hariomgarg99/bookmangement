@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stationary.bookmanagement.service.BookServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-05-02T12:33:54" hostname="XE-GGN-IT-04422" time="0.251">
+  <properties/>
+  <testcase name="getTotalPriceTestWithDiscount()" classname="com.stationary.bookmanagement.service.BookServiceTest" time="0.185"/>
+  <testcase name="testAddNewBook()" classname="com.stationary.bookmanagement.service.BookServiceTest" time="0.039"/>
+  <testcase name="testGetAllBooks()" classname="com.stationary.bookmanagement.service.BookServiceTest" time="0.003"/>
+  <testcase name="testUpdateBook()" classname="com.stationary.bookmanagement.service.BookServiceTest" time="0.004"/>
+  <testcase name="testDeleteBook()" classname="com.stationary.bookmanagement.service.BookServiceTest" time="0.01"/>
+  <testcase name="getTotalPriceTestWithoutDiscount()" classname="com.stationary.bookmanagement.service.BookServiceTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
